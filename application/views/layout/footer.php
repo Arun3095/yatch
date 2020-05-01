@@ -29,7 +29,7 @@
             <script>
               document.write(new Date().getFullYear())
             </script>, made with <i class="material-icons">favorite</i> by
-            <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> for a better web.
+            <a href="https://www.vridhisoftech.com" target="_blank">Vridhi Softech</a> for a better web.
           </div>
         </div>
       </footer>
@@ -103,7 +103,9 @@
       </ul>
     </div>-->
   </div> 
+  
   <!--   Core JS Files   -->
+ 
   <script src="<?=base_url()?>admin_template/assets/js/core/jquery.min.js"></script>
   <script src="<?=base_url()?>admin_template/assets/js/core/popper.min.js"></script>
   <script src="<?=base_url()?>admin_template/assets/js/core/bootstrap-material-design.min.js"></script>
@@ -323,6 +325,15 @@
       md.initDashboardPageCharts();
 
     });
+  </script>
+  <script type="text/javascript">
+    /*---------------------------Display Msg----------------------*/
+  $(document).ready(function() {
+    <?php if($this->session->flashdata('msg')){ ?>
+      $('.confirm-div').html('<?php echo $this->session->flashdata('msg'); ?>').show();
+      $('.confirm-div').delay(3000).fadeOut();
+    <?php } ?>
+  });
   </script>
 </body>
 

@@ -15,62 +15,79 @@ if(!$this->session->user_id)
 			<div class="col-md-8">
 				<div class="confirm-div col-md-12" style="background-color: green;min-height: 30px;color:white;text-align: center;display: none;">
 				</div>
+				<a href="<?=base_url()?>AdminController/add"><button type="button" class="btn btn-primary">Add User</button></a>
+				<a href="<?=base_url()?>AdminController/view_all_user"><button type="button" class="btn btn-primary">View All User</button></a>
 				<div class="card">
+
 					<div class="card-header card-header-primary">
 						<h4 class="card-title">Admin Detail</h4>
 						<p class="card-category">Update Your Detail</p>
 					</div>
 					<div class="card-body">
-						<form method="post" action="<?=base_url()?>">
-							<div class="row">
-								<div class="col-md-12">
-									<div class="form-group">
-										<label class="bmd-label-floating">First Name</label>
-										<input type="text" class="form-control" name="first_name" required >
-										<input type="hidden" name="admin_id" value="<?=$this->session->user_id?>">
+						<?php foreach($admin as $admin_info) { ?>
+							<form method="post" action="<?=base_url()?>AdminController" enctype="multipart/form-data">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="form-group">
+											<label class="bmd-label-floating">First Name</label>
+											<input type="text" class="form-control" name="first_name" value="<?=$admin_info->first_name?>" required>
+											<input type="hidden" name="user_id" value="<?=$this->session->user_id?>">
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<label class="bmd-label-floating">Last Name</label>
+											<input type="text" class="form-control" name="last_name" value="<?=$admin_info->last_name?>" required >
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<label class="bmd-label-floating">Name </label>
+											<input type="text" class="form-control" name="name" value="<?=$admin_info->name?>" required>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<label class="bmd-label-floating">Email </label>
+											<input type="email" class="form-control" name="email" value="<?=$admin_info->email?>" required>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<label class="bmd-label-floating">Contact Number </label>
+											<input type="text" class="form-control" name="contact_no" value="<?=$admin_info->contact_no?>" required>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<label class="bmd-label-floating">Address Detail </label>
+											<textarea class="form-control" name="address"  required><?=$admin_info->address?></textarea>
+											<!-- <input type="text" class="form-control" name="address" > -->
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="">
+											<label class="bmd-label-floating">Image </label><br>
+											<input type="file" name="image" id="image" class="form-group">
+											<img src="<?=base_url()?>uploads/admin/<?=$admin_info->image?>" height="70px" width="70px">
+										</div>
+									</div>
+									
+									<div class="col-md-12">
+										<div class="form-group">
+											<label class="bmd-label-floating">Status </label>
+											<select name="status" id="status" class="form-control">
+												<option value="">Select Status</option>
+												<option value="1" <?php if($admin_info->status == '1') { ?>selected="selected" <?php } ?>>Active</option>
+												<option value="0" <?php if($admin_info->status == '0') { ?> selected="selected" <?php  } ?>>Disactive</option>
+											</select>
+										</div>
 									</div>
 								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-										<label class="bmd-label-floating">Last Name</label>
-										<input type="text" class="form-control" name="last_name" required >
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-										<label class="bmd-label-floating">Name </label>
-										<input type="text" class="form-control" name="name" required>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-										<label class="bmd-label-floating">Email </label>
-										<input type="email" class="form-control" name="email" required>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-										<label class="bmd-label-floating">Contact Number </label>
-										<input type="text" class="form-control" name="contact_no" required>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-										<label class="bmd-label-floating">Address Detail </label>
-										<textarea class="form-control" name="address" required></textarea>
-										<!-- <input type="text" class="form-control" name="address" > -->
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="">
-										<label class="bmd-label-floating">Image </label><br>
-										<input type="file" name="admin_img" id="admin_img">
-									</div>
-								</div>
-							</div>
-							<button type="submit" class="btn btn-primary pull-right">Update &nbsp; Detail</button>
-							<div class="clearfix"></div>
-						</form>
+								<button type="submit" class="btn btn-primary pull-right">Update &nbsp; Detail</button>
+								<div class="clearfix"></div>
+							</form>
+						<?php } ?>
 					</div>
 				</div>
 			</div>

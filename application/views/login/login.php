@@ -7,7 +7,7 @@ if($this->session->user_id)
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Login Page</title>
+  <title>Admin Login</title>
   <!--Made with love by Mutiullah Samim -->
 
   <!--Bootsrap 4 CDN-->

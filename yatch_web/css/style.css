@@ -1,0 +1,2864 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+h1,h2,h3,h4,h5,h6,p,a,li{
+     font-family: 'Montserrat', sans-serif;
+}
+button{
+    font-family: 'Montserrat', sans-serif;
+}
+.boder:after {
+    content: '';
+    position: absolute;
+    top: 1px;
+    width: 1px;
+    height: 15px;
+    background: #545454;
+    right: 58px;
+}
+.boder2:after {
+content: '';
+    position: absolute;
+    top: 1px;
+    width: 1px;
+    height: 15px;
+    background: #545454;
+    right: 62px;
+}
+.boder3:after {content: '';position: absolute;top: 3px;width: 1px;height: 15px;background: #545454;right: 63px;}
+.boder2 {
+    position: relative;
+    margin-left: 15px;
+}
+.boder3 {
+    position: relative;
+}
+.top-email-box .top-social-icon {
+    float: left;
+    width: 100px;
+}
+.boder {
+    margin-left: 5px;
+    position: relative;
+}
+.list-inline {
+    padding: 0;
+    margin: 0;
+}
+.topbar {
+    background: #2f2f2f;
+    padding: 10px 0;
+}
+.top-email-box li {
+    color: #fff;
+    position: relative;
+    top: 0px;
+}
+form.top-form button {
+    border: none;
+    background: no-repeat;
+    position: relative;
+    right: 30px;
+}
+form.top-form input {
+    border: none;
+    border-radius: 4px;
+    padding: 4px 30px 4px 8px;
+    width: 220px;
+}
+.color-white{
+    color: white;
+}
+.top-login select {
+    background: #2f2f2f;
+    border: none;
+    outline: none;
+    padding: 2px 10px;
+}
+.top-social-icon li a i:hover {
+   /* background: #585858;*/
+    background: #fff;
+    color: #f7cd09;
+}
+.top-social-icon li {
+    margin: 0px 2px;
+    padding: 0px !important;
+}
+.top-social-icon li a i {
+    background:#f7cd09 ;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 23px;
+    color: #19289f !important;
+    border-radius: 50%;
+}
+.home-menu li a {
+    color: #7b7b7b;
+    padding: 26px 6px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.home-menu li a:hover {
+    text-decoration: none;
+}
+.menu-active a {
+    color: #f7cd09 !important;
+}
+.width-50{
+    width: 50%;
+}
+.float-left{
+    float: left;
+}
+.main-slider {
+    display: inline-block;
+    width: 100%;
+}
+.slide-con {
+    background: #f7cd09;
+    padding: 18%;
+    height: 535px;
+}
+.boat-img img {
+    height: 535px;
+    width: 100%;
+}
+.slide-con h1 {
+   color: #fff;
+   font-size: 50px;
+   font-weight: 700;
+   margin-bottom: 0;
+   line-height: 60px;
+}
+.slide-con h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+.slide-con button {
+    border-radius: 5px;
+    border: 1px solid #f7cd09;
+    padding: 10px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.slide-con p {
+   line-height: 24px;
+    padding-right: 30%;
+    margin-bottom: 30px;
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+}
+.main-menu {
+    padding-bottom: 14px;
+}
+.mis-vis-con h2 {
+color: #f7cd09;
+    font-weight: 600;
+    font-size: 23px;
+    margin-top: 10px;
+}
+.mis-vis-con h4 {
+    font-size: 14px;
+    color: gray;
+}
+.mis-vis-con {
+    padding: 10% 0;
+}
+.cust-heading:before {
+content: '';
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    background: #19289f;
+    bottom: -16px;
+}
+#myBtnContainer {
+    margin-top: 10px;
+}
+.cust-heading {
+color: #f7cd09;
+    font-weight: 600;
+    margin-bottom: 30px;
+    position: relative;
+    margin-top: 0;
+    font-size: 25px;
+}
+.home-idia-sec p {
+    line-height: 26px;
+    color: #ccc;
+    margin-bottom: 40px;
+}
+.custom-btn {
+    background: #f7cd09;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #333;
+}
+.custom-btn {
+    text-decoration: none;
+    color: #333;
+}
+.home-idia-sec a:hover {
+    text-decoration: none;
+    color: #333;
+}
+.home-idia-icon ul li i {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #f7cd09;
+}
+.home-idia-icon {
+     padding-top: 15%;
+    text-align: center;
+    padding-left: 15%;
+}
+.home-idia-icon ul li {
+    width: 46%;
+}
+.pack-box{
+    margin:10px;
+}
+.pack-box1 {
+    padding: 10px 31px;
+}
+.padding-50-0{
+    padding: 50px 0;
+}
+.pack-discount p {
+    color: #fff;
+    position: relative;
+    bottom: 35px;
+    left: 48px;
+}
+.pack-discount h3 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #f7cd09;
+}
+.pack-discount {
+    position: absolute;
+    bottom: 35px;
+    padding: 20px;
+}
+.pack-discount h3 span {
+    font-size: 20px;
+    position: relative;
+    bottom: 14px;
+    left: 4px;
+}
+.pack-tittle h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+p{
+    line-height: 22px;
+}
+.packge-slide i.fa.fa-angle-left.custom-left.slick-arrow {
+    left: -358px !important;
+    top: 68% !important;
+    background: #f7cd09 !important;
+    position: absolute;
+    z-index: 99;
+    padding: 0px 0px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 27px;
+    right: -25px;
+}
+.packge-slide i.fa.fa-angle-right.custom-right.slick-arrow {
+    left: -326px !important;
+    top: 68% !important;
+    background: #f7cd09 !important;
+    position: absolute;
+    z-index: 99;
+    padding: 0px 0px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 27px;
+    right: -25px;
+}
+.padding-top-50{
+    padding-top: 50px;
+}
+.padding-30-0{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.padding-50-0{
+    padding: 50px 0;
+}
+.custom-h4 {
+    font-size: 14px;
+    color: gray;
+}
+.best-gol {
+    background: #f3f3f3;
+}
+.best-gol-tittle button {
+    background: gray;
+    border: none;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-family: ;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.best-gol-tittle h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.best-gol-tittle p {
+    font-size: 13px;
+}
+.best-gol-box img {
+    border: 2px solid #fff;
+}
+.best-gol-box img {
+   border: 3px solid #fff;
+}
+.best-gol-box:hover img {
+    transition: 0.5s;
+    border: 3px solid #f7cd09;
+}
+.best-gol-box:hover .best-gol-tittle button {
+    background: #f7cd09;
+    transition: 0.5s;
+}
+.cust-heading1 {
+    color: #f7cd09;
+    font-weight: 600;
+    margin-bottom: 30px;
+    position: relative;
+    margin-top: 0;
+    font-size: 25px;
+}
+.best-gol h4 {
+    font-size: 14px;
+    color: gray;
+}
+.cust-heading1:before {
+content: '';
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    background: #19289f;
+    bottom: -12px;
+    left: 49%;
+    right: 49%;
+}
+.inner-pay-icon img{
+    width: 50px !important;
+    height: 50px !important;
+}
+img.logo {
+    position: relative;
+    top: 14px;
+    width: 100%;
+    /*height: auto;*/
+}
+.menu-active {
+    position: relative;
+}
+.menu-active:after {
+content: '';
+    width: 50px;
+    height: 3px;
+    background: #19289f;
+    position: absolute;
+    bottom: -13px;
+    left: 8px;
+}
+.slide-con .cust-heading:before {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    background: #2f2f2f !important;
+    bottom: -16px;
+}
+
+.content h4 {
+    position: absolute;
+    top: 65%;
+    left: 28%;
+    font-size: 22px;
+    color: #fff;
+    width: 155px;
+    text-align: center;
+    line-height: 24px;
+    text-shadow: 0px 1px 5px #000000;
+}
+
+.filter-title-garly {
+    width: 200px;
+    float: left;
+    position: relative;
+    margin-top: 10px;
+}
+.filter-title-garly:before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 30px;
+    top: 10px;
+    background: #67c2e1;
+    right: 0;
+}
+.user-icon img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.testimonial-box {
+    padding-right: 56px;
+}
+.cot-icon {
+    margin: 18px 0;
+    font-size: 30px;
+    color: #f7cd09;
+}
+.text-user-tittle ul li {
+    color: #f7cd09;
+}
+
+.text-user-tittle {
+    margin-top: 20px;
+}
+.text-user-tittle p {
+    font-size: 12px;
+}
+.text-user-tittle h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.home-blog-con a {
+color: #000000;
+    text-decoration: underline;
+    font-size: 12px;
+}
+.blog-img a {
+    padding-top: 15px;
+    display: block;
+    font-size: 12px;
+    color: #000;
+    text-decoration: underline;
+}
+.home-blog-con p {
+    line-height: 18px;
+    font-size: 13px;
+    color: gray;
+}
+.home-blog-con h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-top: 0;
+    color: #f7cd09;
+}
+.margin-top-20{
+    margin-top: 20px;
+}
+.testimonial-box ul.slick-dots {
+    text-align: left;
+    margin-top: 20px;
+}
+.filter-title-garly p {
+    margin: 0;
+}
+.filter-title-garly h4 {
+    margin: 0;
+    padding: 0;
+}
+.text-user-tittle ul li {
+    margin: 0;
+    padding: 0;
+}
+.footer {
+    background: #424242;
+    padding-top: 40px;
+}
+.footer .top-social-icon li {
+    margin: 0 !important;
+}
+.copyright p {
+    color: #a7a7a7;
+}
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 0;
+    border-top: 1px solid #7d7d7d;
+}
+.footer-link1 ul {
+    width: 30%;
+    float: left;
+}
+
+.footer-link1 ul li a:hover {
+    color: #f7cd09;
+}
+.footer-link1 ul li a {
+    color: #969696;
+    font-size: 12px;
+}
+.footer-link1 ul li {
+    margin-bottom: 5px;
+}
+.footer-link1 ul {
+    padding: 0;
+    list-style: none;
+}
+.footer-link1 h4 {
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.footer-link ul li a:hover {
+    color: #f7cd09;
+}
+.footer-link ul li a {
+    color: #969696;
+    font-size: 12px;
+}
+.footer-link ul li {
+ margin-bottom: 5px;
+    color: #969696;
+     font-size: 12px;
+}
+.footer-link ul {
+    padding: 0;
+    list-style: none;
+}
+.footer-link h4 {
+    color: #fff;
+    margin-bottom: 25px;
+}
+.content img {
+    height: 300px;
+    width: 300px;
+}
+
+/* Center website */
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+  position: relative;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 15px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+    color: #f7cd09;
+}
+.btn:focus {
+    color: #f7cd09;
+    outline: none;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline-offset: -2px;
+    outline: none;
+}
+.btn.active {
+    color: #f7cd09;
+    background: no-repeat;
+    border: none;
+    box-shadow: none;
+    font-weight: 600;
+    outline: none;
+}
+
+
+/*------css  re-chnages--------*/
+
+
+.main-home-banner-box{
+    position: relative;
+}
+/*.home-banner-contant {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.home-banner-contant h1 {
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 0;
+    line-height: 21px;
+}
+.home-banner-contant h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.home-banner-contant button {
+    border-radius: 5px;
+    border: 1px solid #f7cd09;
+    padding: 10px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.home-banner-contant p {
+    line-height: 23px;
+    padding-right: 30%;
+    margin-bottom: 30px;
+    color: #fff;
+}*/
+.play-icon {
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    width: 85px;
+}
+.home-banner-brochure {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.home-banner-brochure img {
+    width: 13px;
+}
+.home-banner-brochure p {
+    font-size: 11px;
+    padding: 0;
+    margin: 0;
+    line-height: 15px;
+}
+.home-banner-brochure h6 {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+.home-banner-brochure h5 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+.brochure-downl-icon {
+    position: absolute;
+    left: 43%;
+}
+
+.boat-btn i {
+font-size: 18px;
+    padding-left: 15px;
+    position: relative;
+    top: 1px;
+}
+.slide-con a {
+    border-radius: 5px;
+    background: #fff;
+    padding: 14px 30px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+.top-email-box i img {
+    width: 14px;
+}
+.top-form button i img {
+    width: 14px;
+}
+.top-email-box li {
+    padding-right: 10px;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+}
+.top-email-box i img {
+    width: 24px;
+    padding-right: 10px;
+}
+.top-login li {
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.menu-active a {
+    font-weight: 600;
+}
+.vission-sec {
+    position: relative;
+}
+.chat-frm {
+    position: relative;
+   
+}
+.chat-frm p {
+    background: #f61f0b;
+    border: none;
+    border-radius: 5px;
+    float: left;
+    padding: 5px 15px;
+    width: 188px;
+    color: white;
+    font-size: 12px;
+}
+.chat-main-box img {
+    width: 70px;
+    height: 70px;
+    float: right;
+    position: inherit;
+    top: -18px;
+    right: -19px;
+    border-radius: 50%;
+}
+.input-right-icon img {
+    width: 15px;
+    height: 15px;
+}
+.input-right-icon {
+    position: relative;
+    right: 93px;
+    top: 28px;
+}
+.online {
+    width: 12px;
+    height: 12px;
+    background: #4CAF50;
+    position: absolute;
+    border-radius: 50%;
+    top: -12px;
+    right: 1px;
+}
+.chat-main-box {
+    position: fixed;
+    top: 80%;
+    right: 111px;
+    z-index: 999;
+}
+.boat-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.22);
+    color: #f1f1f1;
+    transition: .5s ease;
+    opacity: 1;
+    height: 535px;
+    width: 100%;
+}
+.mission-img {
+    width: 300px;
+    padding: 20px;
+}
+.mission-img img {
+    width: 100%;
+}
+.home-idia-sec li p {
+    text-align: left;
+    padding-top: 18px;
+    font-weight: 600;
+}
+.top-email-box {
+}
+.pack-tittle i {
+    float: left;
+    padding-right: 5px;
+}
+.pack-tittle p {
+    font-size: 13px;
+}
+.pack-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.22);
+    color: #f1f1f1;
+    transition: .5s ease;
+    opacity: 1;
+    height: 233px;
+    width: 230px;
+}
+.footer-link i img {
+    width: 18px;
+    padding-top: 5px;
+    float: left;
+    padding-right: 5px;
+}
+.fotter-addres {
+    width: 232px;
+    text-align: left;
+    padding-left: 20px;
+}
+.footer-addres-i i {
+    float: left;
+    padding-right: 5px;
+    padding-top: 4px;
+    font-size: 16px;
+}
+.copyright p {
+    font-size: 12px;
+}
+
+.home-menu {
+    line-height: 46px;
+    margin-top: 20px;
+}
+
+.top-main-slider ul.slick-dots {
+    position: absolute;
+    bottom: 40px;
+    left: 9%;
+}
+.top-main-slider ul.slick-dots .slick-active i {
+    color: #f7cd09;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    color:#000;
+}
+
+.top-main-slider ul.slick-dots i {
+font-size: 8px;
+color:#fff;
+}
+/*About us page css*/
+.litte-about-section {
+    padding: 50px 0px;
+}
+.about-pg-Peoples-name {
+    margin-bottom: 12px;
+}
+.litte-about-main-box {
+    text-align: center;
+    padding: 0px 150px;
+}
+
+
+.type-water-main-box h3 {
+    text-align: center;
+    font-size: 22px;
+    color: gray;
+    padding-bottom: 25px;
+    border-bottom: 1px solid gainsboro;
+}
+.type-water-img {
+    padding-top: 20px;
+}
+.type-water-img img {
+    width: 100%;
+}
+.type-water-contant-box {
+    padding-top: 20px;
+}
+.type-water-contant-box h5 {
+    font-weight: 600;
+    padding-top: 30px;
+}
+.type-water-contant-box p {
+    font-size: 13px;
+}
+.type-water-contant-box button {
+    margin-top: 30px;
+    background: #f7cd09;
+    border: none;
+    padding: 8px 30px;
+    color: #000;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.type-water-contant-box button:hover{
+
+ background: gray;
+    transition: 0.5s;
+}
+.what-people-main-box {
+    text-align: center;
+    padding: 0px 150px;
+}
+.what-people-section {
+    padding: 50px 0px;
+    text-align: center;
+}
+.what-people-section h4 {
+    color: gray;
+}
+.what-people-main-box h4 {
+    font-size: 16px;
+    color: gray;
+}
+.about-pg-Peoples-name h4 {
+    font-size: 12px;
+    color: gray;
+    padding-top: 20px;
+    margin: 0;  
+}
+.about-pg-Peoples-name ul li i {
+    color: #f7cd09;
+    font-size: 14px;
+} 
+.about-pg-Peoples-name p {
+    font-size: 10px;
+    margin-bottom: 25px;
+}
+.about-pg-call-box h3 {
+        font-size: 28px;
+    font-weight: 700;
+    border-right: 3px solid white;
+    padding-right: 30px;
+}
+.about-pg-call-box {
+    text-align: right;
+}
+.about-pg-call-email-section {
+    background: #f7cd09;
+    padding: 40px 0px;
+}  
+.about-pg-email-box h3 {
+        font-size: 28px;
+    font-weight: 700;
+}
+.about-pg-call-box h3 span {
+    font-weight: 400;
+}
+.about-pg-email-box h3 span {
+    font-weight: 400;
+}
+.litte-about-main-box p {
+    font-size: 14px;
+    font-weight: 500;
+}
+/*golf tour page css*/
+.golf-tour-banner-section {
+    position: relative;
+}
+.golf-tour-section{
+    padding: 50px 0px;
+}
+.golf-tour-main-box {
+    text-align: center;
+    padding: 0px 150px;
+}
+.golf-tour-main-box p {
+    font-size: 14px;
+    font-weight: 500;
+}
+.some-golf-tour-main-box h3 {
+    text-align: center;
+    font-size: 22px;
+    color: gray;
+    padding-bottom: 25px;
+    border-bottom: 1px solid gainsboro;
+}
+.cust-heading2{
+   text-align: center;
+    font-size: 22px;
+    color: gray;
+    padding-bottom: 25px;
+    border-bottom: 1px solid gainsboro;
+}
+.some-golf-tour-img {
+    padding-top: 20px;
+}
+.some-golf-tour-img img {
+    width: 100%;
+}
+.some-golf-tour-contant-box {
+    padding-top: 20px;
+    position: relative;
+}
+.some-golf-tour-contant-box h5 {
+    font-weight: 600;
+    padding-top: 30px;
+}
+.some-golf-tour-contant-box p {
+    font-size: 13px;
+}
+.some-golf-tour-contant-box button {
+    margin-top: 30px;
+    background: #f7cd09;
+    border: none;
+    padding: 8px 30px;
+    color: #000;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.some-golf-tour-contant-box button:hover{
+
+ background: gray;
+    transition: 0.5s;
+}
+.some-golf-tour-offer img {
+    width: 60px;
+}
+.some-golf-tour-offer {
+    position: absolute;
+    top: 64px;
+    right: 10px;
+}
+.see-more-golf-tour a {
+    color: black;
+    font-size: 16px;
+    text-decoration: underline;
+}
+.see-more-golf-tour {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.golf-tour-brochure {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.golf-tour-brochure h5 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+.golf-tour-brochure h6 {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+.golf-tour-brochure p {
+    font-size: 11px;
+    padding: 0;
+    margin: 0;
+    line-height: 15px;
+}
+.golf-tour-brochure-downl-icon {
+    position: absolute;
+    left: 43%;
+}
+.golf-tour-brochure img {
+    width: 13px;
+}
+
+/*shedule page css*/
+
+.see-more-golf-tour a i img {
+    width: 10px;
+}
+.shedule-form-section {
+    background: #f7cd09;
+    padding: 40px 0px;
+    text-align: center;
+}
+.shedule-form .form-control {
+    border-radius: 0 !important;
+    padding: 4px 30px;
+    height: 45px !important;
+}
+.shedule-form button {
+    padding: 12px 60px;
+    border-radius: 4px;
+    color: white;
+    background: #2f2f2f;
+    font-size: 13px;
+    font-weight: 500;
+}
+.your-own-section {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.your-own-main-box h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.your-own-main-box p {
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+}
+.your-own-button1 {
+    margin-top: 10px;
+    background: #f7cd09;
+    border: none;
+    padding: 8px 30px;
+    color: #000;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.your-own-button2 {
+    margin-top: 10px;
+    background: #fff;
+    border: none;
+    padding: 8px 30px;
+    color: #000;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+/*our boats page css*/
+.our-boats-main-box h2 {
+    text-align: center;
+}
+.our-boats-section {
+    padding: 50px 0px;
+}
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 0;
+    border-top: 1px solid gainsboro !important;
+}
+.our-boats-box a {
+    color: black;
+    font-size: 11px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.our-boats-box h4 {
+    font-size: 13px;
+    font-weight: 600;
+}
+.our-boats-box {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.our-boats-see-more {
+    text-align: center;
+    margin-top: 50px;
+}
+.our-boats-see-more a {
+    color: black;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.our-boats-see-more a i img {
+    width: 10px;
+}
+/*shedule inner page css*/
+.shedule-inner-section {
+    padding: 50px 0px;
+}
+.shedule-inner-main-box {
+    margin-top: 30px;
+}
+.off-tour img {
+    width: 80px;
+}
+.off-tour {
+    position: absolute;
+    top: 32px;
+    right: 15px;
+}
+.shedule-inner-img img {
+    width: 100%;
+}
+.shedule-inner-price-box h1 {
+    font-size: 52px;
+    font-weight: 600;
+}
+.shedule-inner-form input {
+    width: 260px;
+    height: 40px;
+}
+.some-golf-tour-location {
+    font-weight: 500;
+}
+.shedule-inner-form {
+    margin-top: 30px;
+}
+.shedule-inner-form button {
+    margin-top: 30px;
+    background: #f7cd09;
+    border: none;
+    padding: 8px 30px;
+    color: #000;
+    width: 260px;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.shedule-inner-form span {
+    float: right;
+    width: 136px;
+    padding-top: 33px;
+    text-align: center;
+   
+}
+.shedule-inner-form span a {
+    text-decoration: underline;
+    color: black;
+    font-size: 15px;
+}
+.shedule-inner-price-box {
+    padding-left: 35px;
+}
+.shedule-details-main-box h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.cancellation-policy h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.shedule-details-box2 ul li {
+    list-style: none;
+    font-size: 13px;
+    line-height: 28px;
+}
+.shedule-details-box2 ul {
+    margin: 0;
+    padding: 0;
+}
+.shedule-details-box3 p {
+    font-size: 13px;
+}
+.shedule-details-box1 p {
+    font-size: 13px;
+}
+.cancellation-policy p {
+    font-size: 13px;
+}
+.shedule-details-section {
+    padding-bottom: 60px;
+}.cancellation-policy {
+    padding-top: 25px;
+}
+/*blog page css*/
+.blog-pg-box img {
+    width: 100%;
+}
+.blog-pg-main-box h2 {
+    text-align: center;
+}
+.bolg-pg-section {
+    padding: 50px 0px;
+}
+.blog-pg-box h4 {
+    font-size: 22px;
+   /* margin-top: 40px;*/
+}
+.blog-pg-box p {
+    font-size: 13px;
+    padding-top: 10px;
+}
+.blog-pg-box a {
+    font-size: 13px;
+    color: black;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.blog-topic {
+    border: 1px solid gainsboro;
+        padding-bottom: 30px;
+}
+.blog-topic h3 {
+    font-size: 16px;
+    background: #2f2f2f;
+    padding: 22px 26px;
+    color: #fff;
+    margin: 0;
+}
+
+
+.blog-topic ul li:before { content: '> '}
+.blog-topic ul {
+     list-style: none; 
+    padding-top: 35px;
+}
+.blog-topic ul li {
+    padding: 10px 0px;
+    font-size: 13px;
+}
+
+.blog-search{
+border: 1px solid gainsboro;
+padding-bottom: 30px;
+margin-top: 32px;
+}
+.blog-search h3 {
+    font-size: 16px;
+    background: #2f2f2f;
+    padding: 22px 26px;
+    color: #fff;
+    margin: 0;
+}
+.blog-pg-form ul {
+  padding-top: 40px;
+}
+.blog-pg-form ul li {
+    list-style: none;
+     padding: 10px 0px;
+}
+.blog-pg-form ul li input {
+    width: 85%;
+    height: 45px;
+    border-radius: 0;
+}
+.blog-pg-form ul li button {
+    margin-top: 10px;
+    background: #f7cd09;
+    border: none;
+    padding: 8px 30px;
+    color: #000;
+    width: 150px;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.blog-pg-box {
+    padding-top: 0px;
+}
+.blog-pg-pagination {
+    text-align: right;
+}
+.blog-pg-pagination ul li a {
+    margin: 0 5px;
+    color: black;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.blog-pg-pagination .active a {
+    background: #f7cd09;
+    border-color: #f7cd09;
+    
+}
+.blog-pg-pagination ul {
+    margin: 0;
+}
+/*contact us page css*/
+.contact-pg-main-box h2 {
+    text-align: center;
+}
+.contact-pg-section {
+    padding: 50px 0px;
+}
+.contact-pg-main-box  p {
+    text-align: center;
+    padding: 0 150px;
+}
+
+.contact-info-pg-main-box h2 {
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+.contac-info-icon p {
+    float: right;
+    width: 90%;
+}
+.contac-info-icon i {
+    float: left;
+    width: 10%;
+}
+.contact-pg-frm-section {
+    background: #f7cd0a;
+    padding: 35px 0px;
+}
+.contact-enquiry-pg-section h2{
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+.contact-pg-frm input {
+    border-radius: inherit;
+    height: 45px;
+}
+.contact-pg-frm textarea {
+    width: 100%;
+    height: 210px;
+    padding: 10px;
+}
+.contact-pg-frm-btn {
+    text-align: center;
+}
+.contact-pg-frm {
+    width: 80%;
+    margin: 0 auto;
+}
+.contact-pg-frm-btn button {
+    background: #424242;
+    border: none;
+    padding: 8px 20px;
+    width: 120px;
+    height: 42px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact-pg-frm .form-group {
+    margin-bottom: 10px;
+}
+/*safety page css*/
+.safety-pg-section {
+    padding: 50px 0px;
+    text-align: center;
+}
+.safety-pg-main-box p {
+    padding: 0px 150px;
+     font-size: 13px;
+}
+
+.safety-pg-insurance-main-box {
+    text-align: center;
+}
+.safety-pg-insurance-section {
+    padding-bottom: 50px;
+}
+.safety-pg-insurance-main-box h4 {
+    margin-bottom: 50px;
+}
+.safety-pg-insurance-box h5 {
+    font-size: 15px;
+    font-weight: 600;
+}
+.safety-pg-insurance-box p {
+    font-size: 13px;
+}
+.safety-pg-insurance-box {
+    padding-bottom: 20px;
+}
+.about-pg-banner-section{
+    position: relative;
+}
+/*-------------*/
+span.golf-tour-brochure-downl-icon img {
+    width: 15px !important;
+    height: 17px !important;
+}
+.banner-box img {
+    width: 100%;
+    height: 500px;
+}
+.some-golf-tour-btn{
+    text-align: center;
+}
+.best-gol-box img {
+    width: 100%;
+}
+/*-------------------slick slider---------------*/
+/* Slider */
+.slick-slider{position:relative;display:block;box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent;}
+.slick-list{position:relative;display:block;overflow:hidden;margin:0;padding:0;}
+.slick-list:focus{outline:none;}
+.slick-list.dragging{cursor:pointer;cursor:hand;}
+.slick-slider .slick-track,.slick-slider .slick-list{-webkit-transform:translate3d(0, 0, 0);-moz-transform:translate3d(0, 0, 0);-ms-transform:translate3d(0, 0, 0);-o-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);}
+.slick-track{position:relative;top:0;left:0;display:block;margin-left:auto;margin-right:auto;}
+.slick-track:before,.slick-track:after{display:table;content:'';}
+.slick-track:after{clear:both;}
+.slick-loading .slick-track{visibility:hidden;}
+.slick-slide{display:none;float:left;width:100% height:100%;min-height:1px;}
+[dir='rtl'] .slick-slide{float:right;}
+.slick-slide img{display:block;}
+.slick-slide.slick-loading img{display:none;}
+.slick-slide.dragging img{pointer-events:none;}
+.slick-initialized .slick-slide{display:block;}
+.slick-loading .slick-slide{visibility:hidden;}
+.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent;}
+.slick-arrow.slick-hidden{display:none;}
+ul.slick-dots{padding:0;text-align:center;list-style:none;}
+ul.slick-dots li{display:inline;margin:5px;}
+ul.slick-dots .slick-active i{color:#f7cd09;}
+i.fa.fa-angle-left.custom-left.slick-arrow{top:40%;position:absolute;background: #73c7e3;z-index:99;padding:0px 0px;border-radius:50%;color:#fff;font-size:30px;width:40px;height:40px;text-align:center;line-height:38px;left:-25px;}
+i.fa.fa-angle-right.custom-right.slick-arrow{top:40%;position:absolute;background: #73c7e3;z-index:99;padding:0px 0px;border-radius:50%;color:#fff;font-size:30px;width:40px;height:40px;text-align:center;line-height:38px;right:-25px;}
+
+
+.mobile-menu-br{
+    display: none;
+}
+.mobile-ser-box{
+    display: none;
+}
+
+@media all and (max-width: 480px) and (min-width: 320px) {
+.col-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.blog-inner-pg-main-box p {
+    text-align: center;
+    font-size: 11px;
+}
+.bolg-inner-pg-section {
+    padding: 20px 0px;
+}
+
+
+.top-email-section {
+    display: none;
+}
+.chat-main-box {
+    position: fixed;
+    top: 78%;
+    right: 20px;
+    z-index: 999;
+}
+.top-login ul li {
+    padding: 0;
+}
+
+.blog-img {
+    margin-top: 20px;
+}
+.inner-pay-icon {
+    left: 44% !important;
+}
+.play-icon {
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    width: 60px;
+}
+.pack-box1 {
+    padding: 0px 0px;
+}
+.best-gol-box img {
+    border: 3px solid #fff;
+    width: 100%;
+}
+.tour-package-sec img {
+    width: 100%;
+}
+.top-email-box .top-social-icon {
+    float: left;
+    width: 88px;
+    display: inline-block;
+    z-index: 9;
+}
+.top-login {
+    width: 69%;
+    float: right;
+}
+.slide-con {
+    background: #f7cd09;
+    padding: 10%;
+    height: 350px;
+}
+img.logo {
+    position: relative;
+    top: 6px;
+    width: 220px;
+    height: auto;
+}
+.top-form {
+    display: none;
+    position: absolute;
+    background: #64c2de;
+    padding: 10px;
+    z-index: 9;
+    width: 100%;
+    left: 0;
+    top: 30px;
+}
+.top-form input {
+    width: 84%;
+}
+.mobile-ser-box .fa-times{
+    display: none;
+}
+.menu-sec .top-social-icon {
+    position: absolute;
+    bottom: 80px;
+    z-index: 9;
+}
+.boder {
+    margin-left: 10px;
+    position: relative;
+}
+.boder:after {
+    right: 45px;
+}
+.boder2:after {
+     right: 53px;
+}
+.boder3:after {
+     right: 54px;
+}
+.mobile-ser-box{
+    display: block;
+}
+.mobile-ser-box i {
+    color: #fff;
+    margin-right: 10px;
+}
+.mobile-menu-br{
+display: block;
+    font-size: 30px;
+    width: 30px;
+    position: absolute;
+    right: 5px;
+    bottom: -5px;
+}
+.home-menu li {
+width: 100%;
+    text-align: left;
+    margin-bottom: 4px;
+    border-bottom: 1px solid;
+    padding-bottom: 0px;
+}
+
+.home-menu {
+    background: #000;
+    position: absolute;
+    padding: 10px;
+    top: -2px;
+    display: none;
+    left: 0;
+    z-index: 9
+}
+.menu-active:after{
+    display: none;
+}
+.mob-100{
+    width: 100%;
+}
+.slide-con h1 {
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 0;
+    line-height: 35px;
+}
+.boat-img img {
+    height: 100%;
+    width: 100%;
+}
+.cust-heading1:before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background: #65c3dd;
+    bottom: -16px;
+    left: 43%;
+    right: 42%;
+}
+.best-gol-box {
+    margin-bottom: 20px;
+}
+.content img {
+    height: 100%;
+    width: 100%;
+}
+.column {
+    float: left;
+    width: 100%;
+    display: none;
+    position: relative;
+}
+.content h4 {
+    position: absolute;
+    top: 65%;
+    left: 29%;
+    font-size: 25px;
+    color: #fff;
+}
+.filter-title-garly h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+.filter-title-garly {
+    width: 90px;
+    float: left;
+    position: relative;
+    margin-top: 10px;
+}
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 4px;
+    background-color: white;
+    cursor: pointer;
+}
+.home-blog-box {
+    padding-top: 35px;
+}
+.home-blog-con {
+    margin-top: 20px;
+}
+.copyright {
+    text-align: left;
+}
+/*about us page css 320x480*/
+.litte-about-main-box {
+    text-align: center;
+    padding: 0px 15px;
+}
+.cust-heading1{
+    font-size: 20px;
+}
+.litte-about-main-box p{
+    font-size: 11px;
+}
+.type-water-main-box h3 {
+    font-size: 18px;
+}
+.type-water-contant-box p {
+    font-size: 11px;
+}
+.type-water-contant-box button {
+    padding: 6px 10px;
+    font-size: 12px;
+}
+.what-people-main-box {
+    text-align: center;
+    padding: 0px 15px;
+}
+.what-people-main-box p {
+    font-size: 11px;
+}
+.about-pg-call-box h3 {
+    font-size: 20px;
+    border: none;
+    padding: 0;
+}
+.about-pg-email-box h3{
+font-size: 20px;
+}
+.about-pg-call-box {
+    text-align: center;
+}
+.about-pg-email-box {
+    text-align: center;
+}
+.about-pg-call-email-section {
+    padding: 20px 0px;
+}
+.footer-link {
+    padding-left: 7px;
+}
+.footer {
+    padding-bottom: 20px;
+}
+/*golf tour page css 320x480*/
+.golf-tour-brochure {
+    position: absolute;
+    top: 2px;
+    right: 14px;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+.golf-tour-brochure h5 {
+    font-size: 10px;
+  
+}
+.golf-tour-brochure h6 {
+    font-size: 8px;
+}
+.golf-tour-brochure p {
+    font-size: 8px;
+}
+.golf-tour-brochure img {
+    width: 8px;
+}
+.golf-tour-main-box {
+    padding: 0px 15px;
+}
+.golf-tour-main-box p {
+    font-size: 11px;
+}
+.some-golf-tour-main-box h3 {
+  font-size: 16px;
+}
+.some-golf-tour-offer img {
+    width: 45px;
+}
+.some-golf-tour-contant-box p {
+    font-size: 11px;
+}
+.some-golf-tour-contant-box button {
+    padding: 6px 10px;
+    font-size: 12px;
+}
+.see-more-golf-tour a {
+    font-size: 13px;
+}
+/*shedule page css 320x480*/
+.shedule-form-main-box {
+    padding: 0px 35px;
+}
+.shedule-form .form-control {
+    height: 30px !important;
+}
+.your-own-main-box h3 {
+    font-size: 22px;
+}
+.your-own-main-box p {
+    font-size: 11px;
+}
+.your-own-button1 {
+    margin-top: 10px;
+    padding: 6px 10px;
+    font-size: 11px;
+}
+.your-own-button2 {
+    margin-top: 10px;
+    padding: 6px 10px;
+    font-size: 11px;
+}
+.your-own-main-box {
+    text-align: center;
+    width: 280px;
+    margin: 0 auto;
+}
+/*our boats page css 320x480*/
+.our-boats-see-more a {
+    font-size: 12px;
+}
+.our-boats-see-more {
+    margin-top: 18px;
+}
+.our-boats-section {
+    padding: 18px 0px;
+}
+/*shedule inner page css 320x480*/
+.shedule-inner-section {
+    padding: 15px 0px;
+}
+.cust-heading2 {
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+.shedule-inner-price-box h1 {
+    font-size: 20px;
+}
+.shedule-inner-price-box {
+    padding-left: 0px;
+}
+.shedule-inner-price-box p {
+    font-size: 11px;
+}
+.some-golf-tour-location i img {
+    width: 11px;
+}
+.off-tour img {
+    width: 50px;
+}
+.off-tour {
+    position: absolute;
+    top: 0px;
+}
+.shedule-inner-form input {
+    width: 100%;
+    height: 30px;
+}
+.shedule-inner-form button {
+    margin-top: 10px;
+    padding: 8px 30px;
+    width: 100%;
+    height: 35px;
+    font-size: 14px;
+    float: none;
+}
+.shedule-inner-form span {
+    padding-top: 10px;
+    float: none;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+.shedule-inner-form span a {
+    font-size: 12px;
+}
+.shedule-details-main-box h5 {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.shedule-details-box1 p {
+    font-size: 11px;
+}
+.shedule-details-box2 ul li {
+    font-size: 11px;
+    line-height: 25px;
+}
+.shedule-details-box3 p {
+    font-size: 11px;
+}
+.cancellation-policy p {
+    font-size: 11px;
+}
+.cancellation-policy h4 {
+    font-size: 15px;
+}
+/*blog page css 320x480*/
+.blog-pg-box h4 {
+    font-size: 14px;
+    margin-top: 30px;
+}
+.blog-pg-box p {
+    font-size: 11px;
+    padding-top: 0px;
+}
+.blog-pg-box a {
+    font-size: 11px;
+}
+.blog-pg-pagination ul li a {
+    margin: 0 3px;
+    padding: 5px 8px;
+    font-size: 11px;
+}
+.blog-topic {
+    border: 1px solid gainsboro;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+.blog-topic h3 {
+    font-size: 14px;
+    padding: 14px 26px;
+}
+.blog-topic ul li {
+    padding: 6px 0px;
+    font-size: 11px;
+}
+.blog-search h3 {
+    font-size: 14px;
+    padding: 14px 26px;
+}
+.blog-pg-form ul li input {
+    width: 85%;
+    height: 35px;
+}
+.blog-pg-form ul li button {
+    margin-top: 10px;
+    padding: 8px 30px;
+    width: 125px;
+    height: 37px;
+    font-size: 13px;
+
+}
+/*contact page css 320x480*/
+.contact-pg-main-box p {
+    text-align: center;
+    padding: 0 15px;
+    font-size: 11px;
+}
+.contact-pg-section {
+    padding: 20px 0px;
+}
+.contact-info-pg-main-box h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.contac-info-icon p {
+    font-size: 11px;
+}
+.contac-info-icon i {
+    line-height: 31px;
+    text-align: center;
+}
+.contac-info-icon i img {
+    width: 13px;
+}
+.contact-enquiry-pg-section h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.contact-pg-frm input {
+    border-radius: inherit;
+    height: 30px;
+    font-size: 12px;
+}
+.contact-pg-frm textarea {
+    height: 110px;
+    font-size: 12px;
+}
+.contact-pg-frm-btn button {
+    height: 35px;
+    font-size: 12px;
+}
+/*safety page css 320x480*/
+.safety-pg-main-box p {
+    padding: 0px 15px;
+    font-size: 11px;
+}
+.safety-pg-section {
+    padding: 20px 0px;
+    text-align: center;
+}
+.safety-pg-insurance-main-box h4 {
+    margin-bottom: 28px;
+    font-size: 14px;
+}
+.safety-pg-insurance-box h5 {
+    font-size: 13px;
+    font-weight: 600;
+}
+.safety-pg-insurance-box p {
+    font-size: 11px;
+    padding: 0px 15px;
+}
+.safety-pg-insurance-section {
+    padding-bottom: 0px;
+}
+.safety-pg-insurance-box {
+    padding-bottom: 5px;
+}
+/*-------------------*/
+.home-banner-brochure {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 80px;
+    height: 80px;
+}
+.pack-overlay {
+    position: absolute;
+
+    height: 314px;
+    width: 311px;
+}
+.blog-img img {
+    width: 100%;
+}
+
+}
+@media all and (max-width: 667px) and (min-width: 481px) {
+.col-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.blog-inner-pg-main-box p {
+    text-align: center;
+    font-size: 12px;
+}
+.bolg-inner-pg-section {
+    padding: 20px 0px;
+}
+
+.top-email-section {
+    display: none;
+}
+.chat-main-box {
+    position: fixed;
+    top: 78%;
+    right: 20px;
+    z-index: 999;
+}
+.top-login ul li {
+    padding: 0;
+}
+
+.blog-img {
+    margin-top: 20px;
+}
+.inner-pay-icon {
+    left: 44% !important;
+}
+.play-icon {
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    width: 80px;
+}
+.pack-box1 {
+    padding: 0px 0px;
+}
+.best-gol-box img {
+    border: 3px solid #fff;
+    width: 100%;
+}
+.tour-package-sec img {
+    width: 100%;
+}
+.top-email-box .top-social-icon {
+    float: left;
+    width: 88px;
+    display: inline-block;
+    z-index: 9;
+}
+.top-login {
+    width: 69%;
+    float: right;
+}
+.slide-con {
+    background: #f7cd09;
+    padding: 10%;
+    height: 350px;
+}
+img.logo {
+    position: relative;
+    top: 6px;
+    width: 220px;
+    height: auto;
+}
+.top-form {
+    display: none;
+    position: absolute;
+    background: #64c2de;
+    padding: 10px;
+    z-index: 9;
+    width: 100%;
+    left: 0;
+    top: 30px;
+}
+.top-form input {
+    width: 84%;
+}
+.mobile-ser-box .fa-times{
+    display: none;
+}
+.menu-sec .top-social-icon {
+    position: absolute;
+    bottom: 80px;
+    z-index: 9;
+}
+.boder {
+    margin-left: 10px;
+    position: relative;
+}
+.boder:after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    width: 1px;
+    height: 15px;
+    right: 52px;
+}
+.mobile-ser-box{
+    display: block;
+}
+.mobile-ser-box i {
+    color: #fff;
+    margin-right: 10px;
+}
+.mobile-menu-br{
+display: block;
+    font-size: 30px;
+    width: 30px;
+    position: absolute;
+    right: 5px;
+    bottom: -5px;
+}
+.home-menu li {
+width: 100%;
+    text-align: left;
+    margin-bottom: 4px;
+    border-bottom: 1px solid;
+    padding-bottom: 0px;
+}
+
+.home-menu {
+    background: #000;
+    position: absolute;
+    padding: 10px;
+    top: -2px;
+    display: none;
+    left: 0;
+    z-index: 9
+}
+.menu-active:after{
+    display: none;
+}
+.mob-100{
+    width: 100%;
+}
+.slide-con h1 {
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 0;
+    line-height: 35px;
+}
+.boat-img img {
+    height: 100%;
+    width: 100%;
+}
+.cust-heading1:before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background: #65c3dd;
+    bottom: -16px;
+    left: 43%;
+    right: 42%;
+}
+.best-gol-box {
+    margin-bottom: 20px;
+}
+.content img {
+    height: 100%;
+    width: 100%;
+}
+.column {
+    float: left;
+    width: 100%;
+    display: none;
+    position: relative;
+}
+.content h4 {
+    position: absolute;
+    top: 65%;
+    left: 29%;
+    font-size: 25px;
+    color: #fff;
+}
+.filter-title-garly h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+.filter-title-garly {
+    width: 90px;
+    float: left;
+    position: relative;
+    margin-top: 10px;
+}
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 4px;
+    background-color: white;
+    cursor: pointer;
+}
+.home-blog-box {
+    padding-top: 35px;
+}
+.home-blog-con {
+    margin-top: 20px;
+}
+.copyright {
+    text-align: left;
+}
+/*about us page css 481x667*/
+.litte-about-main-box {
+    text-align: center;
+    padding: 0px 15px;
+}
+.cust-heading1{
+    font-size: 25px;
+}
+.litte-about-main-box p{
+    font-size: 11px;
+}
+.type-water-main-box h3 {
+    font-size: 18px;
+}
+.type-water-contant-box p {
+    font-size: 11px;
+}
+.type-water-contant-box button {
+    padding: 6px 10px;
+    font-size: 12px;
+}
+.what-people-main-box {
+    text-align: center;
+    padding: 0px 15px;
+}
+.what-people-main-box p {
+    font-size: 11px;
+}
+.about-pg-call-box h3 {
+    font-size: 20px;
+    border: none;
+    padding: 0;
+}
+.about-pg-email-box h3{
+font-size: 20px;
+}
+.about-pg-call-box {
+    text-align: center;
+}
+.about-pg-email-box {
+    text-align: center;
+}
+.about-pg-call-email-section {
+    padding: 20px 0px;
+}
+.footer-link {
+    padding-left: 7px;
+}
+.footer {
+    padding-bottom: 20px;
+}
+/*golf tour page css 481X667*/
+.golf-tour-brochure {
+    position: absolute;
+    top: 2px;
+    right: 14px;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+.golf-tour-brochure h5 {
+    font-size: 10px;
+  
+}
+.golf-tour-brochure h6 {
+    font-size: 8px;
+}
+.golf-tour-brochure p {
+    font-size: 8px;
+}
+.golf-tour-brochure img {
+    width: 8px;
+}
+.golf-tour-main-box {
+    padding: 0px 15px;
+}
+.golf-tour-main-box p {
+    font-size: 13px;
+}
+.some-golf-tour-main-box h3 {
+  font-size: 18px;
+}
+.some-golf-tour-offer img {
+    width: 45px;
+}
+.some-golf-tour-contant-box p {
+    font-size: 13px;
+}
+.some-golf-tour-contant-box button {
+    padding: 8px 20px;
+    font-size: 13px;
+}
+.see-more-golf-tour a {
+    font-size: 18px;
+}
+/*shedule page css 481x667*/
+.shedule-form-main-box {
+    padding: 0px 35px;
+}
+.shedule-form .form-control {
+    height: 40px !important;
+}
+.your-own-main-box h3 {
+    font-size: 22px;
+}
+.your-own-main-box p {
+    font-size: 11px;
+}
+.your-own-button1 {
+    margin-top: 10px;
+    padding: 6px 10px;
+    font-size: 11px;
+}
+.your-own-button2 {
+    margin-top: 10px;
+    padding: 6px 10px;
+    font-size: 11px;
+}
+.your-own-main-box {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+/*our boats page css 481x667*/
+.our-boats-box img {
+    padding: 0px 45px;
+}
+.our-boats-see-more a {
+    font-size: 12px;
+}
+.our-boats-see-more {
+    margin-top: 18px;
+}
+.our-boats-section {
+    padding: 18px 0px;
+}
+/*shedule innerpage css 481x667*/
+.shedule-inner-price-box h1 {
+    font-size: 30px;
+}
+.off-tour img {
+    width: 60px;
+}
+.off-tour {
+    position: absolute;
+    top: 4px;
+}
+.shedule-inner-form input {
+    width: 260px;
+    height: 35px;
+}
+.shedule-inner-form button {
+    margin-top: 10px;
+    padding: 8px 30px;
+    width: 260px;
+    height: 40px;
+    font-size: 18px;
+
+}
+.shedule-inner-form span a {
+    font-size: 14px;
+}
+.shedule-inner-form span {
+    padding-top: 8px;
+}
+/*blog page css 320x480*/
+.blog-pg-box h4 {
+    font-size: 16px;
+    margin-top: 30px;
+}
+.blog-pg-box p {
+    font-size: 12px;
+    padding-top: 0px;
+}
+.blog-pg-box a {
+    font-size: 12px;
+}
+.blog-pg-pagination {
+    text-align: center;
+}
+
+.blog-topic {
+    border: 1px solid gainsboro;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+.blog-topic h3 {
+    font-size: 16px;
+    padding: 20px 26px;
+}
+.blog-topic ul li {
+    padding: 10px 0px;
+    font-size: 12px;
+}
+.blog-search h3 {
+    font-size: 16px;
+    padding: 20px 26px;
+}
+/*contact page css 481x667*/
+.contact-pg-main-box p {
+    text-align: center;
+    padding: 0 30px;
+    font-size: 12px;
+}
+.contact-pg-section {
+    padding: 20px 0px;
+}
+.contact-info-pg-main-box h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.contac-info-icon p {
+    font-size: 12px;
+}
+.contac-info-icon i {
+    line-height: 30px;
+    text-align: center;
+}
+.contac-info-icon i img {
+    width: 13px;
+}
+.contact-enquiry-pg-section h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.contact-pg-frm input {
+    border-radius: inherit;
+    height: 30px;
+    font-size: 12px;
+}
+.contact-pg-frm textarea {
+    height: 110px;
+  
+}
+/*safety page css 481x667*/
+.safety-pg-main-box p {
+    padding: 0px 30px;
+    font-size: 12px;
+}
+.safety-pg-section {
+    padding: 20px 0px;
+    text-align: center;
+}
+.safety-pg-insurance-main-box h4 {
+    margin-bottom: 28px;
+    font-size: 16px;
+}
+.safety-pg-insurance-box h5 {
+    font-size: 14px;
+    font-weight: 600;
+}
+.safety-pg-insurance-box p {
+    font-size: 12px;
+    padding: 0px 15px;
+}
+.safety-pg-insurance-section {
+    padding-bottom: 0px;
+}
+.safety-pg-insurance-box {
+    padding-bottom: 25px;
+}
+/*-------------*/
+.mission-img {
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.pack-overlay {
+    height: 432px;
+    width: 433px;
+}
+.blog-img img {
+    width: 100%;
+}
+
+
+}
+
+
+
+
+@media all and (max-width: 1024px) and (min-width: 1023px) {
+.home-menu li a {
+    color: #7b7b7b;
+    padding: 26px 2px;
+    font-size: 13px;
+    font-weight: 500;
+}
+}
+
+@media all and (max-width: 1022px) and (min-width: 768px) {
+.top-email-section {
+    display: none;
+}
+
+
+img.logo {
+    position: relative;
+    top: 8px;
+    width: 277px;
+    height: auto;
+}
+.top-email-box .top-social-icon {
+    float: left;
+    width: 88px;
+    display: inline-block;
+    z-index: 9;
+}
+.top-form {
+    display: none;
+    position: absolute;
+    background: #64c2de;
+    padding: 10px;
+    z-index: 9;
+    width: 100%;
+    left: 0;
+    top: 30px;
+}
+.top-form input {
+    width: 84%;
+}
+.mobile-ser-box .fa-times{
+    display: none;
+}
+.menu-sec .top-social-icon {
+    position: absolute;
+    bottom: 80px;
+    z-index: 9;
+}
+.boder {
+    margin-left: 10px;
+    position: relative;
+}
+.boder:after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    width: 1px;
+    height: 15px;
+    background: #c1c1c1;
+    right: 61px;
+}
+.mobile-ser-box{
+    display: block;
+}
+.mobile-ser-box i {
+    color: #fff;
+    margin-right: 10px;
+}
+.mobile-menu-br{
+display: block;
+    font-size: 30px;
+    width: 30px;
+    position: absolute;
+    right: 5px;
+    bottom: 1px;
+}
+.home-menu li {
+width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+
+.home-menu {
+    background: #000;
+    position: absolute;
+    padding: 10px;
+    top: -4px;
+    display: none;
+    left: 0;
+    z-index: 9;
+    width: 100%
+}
+.menu-active:after{
+    display: none;
+}
+.slide-con {
+    background: #f7cd09;
+    padding: 17% 15%;
+    height: 100%;
+}
+.slide-con h1 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 0;
+    line-height: 45px;
+}
+.boat-img img {
+    height: 390px;
+    width: 100%;
+}
+.top-main-slider ul.slick-dots {
+    position: absolute;
+    bottom: 15px;
+    left: 9%;
+}
+
+.cust-heading1:before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background: #65c3dd;
+    bottom: -16px;
+    left: 47%;
+    right: 47%;
+}
+.best-gol-box {
+    margin-bottom: 20px;
+}
+.content img {
+    width: 100%;
+}
+.column {
+    float: left;
+    width: 50%;
+    display: none;
+    position: relative;
+}
+.content h4 {
+    position: absolute;
+    top: 65%;
+    left: 35%;
+    font-size: 25px;
+    color: #fff;
+}
+.filter-title-garly {
+    width: 111px;
+    float: left;
+    position: relative;
+    margin-top: 10px;
+}
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 4px;
+    background-color: white;
+    cursor: pointer;
+}
+.home-blog-box {
+    padding-top: 35px;
+}
+.home-blog-con {
+    margin-top: 20px;
+}
+.copyright {
+    text-align: left;
+}
+/*about us page css 768x1022*/
+.litte-about-main-box {
+    padding: 0px 88px;
+}
+.what-people-main-box{
+    padding: 0px 88px;
+}
+.about-pg-email-box h3 {
+    font-size: 22px;
+}
+.about-pg-call-box h3 {
+    font-size: 22px;
+}
+.fotter-addres {
+    width: 191px;
+}
+.home-menu li a{
+    font-size: 16px;
+}
+/*golf tour page css 768x1022*/
+.golf-tour-main-box {
+    padding: 0px 88px;
+}
+.golf-tour-brochure {
+    position: absolute;
+    top: 22px;
+}
+/*shedule page css 768x1022*/
+.shedule-form .form-control {
+    border-radius: 0 !important;
+    padding: 4px 8px;
+    height: 45px !important;
+}
+/*shedule innerpage css 768x1022*/
+.shedule-inner-price-box h1 {
+    font-size: 35px;
+}
+.off-tour img {
+    width: 60px;
+}
+.shedule-inner-price-box {
+    padding-left: 0;
+}
+.shedule-inner-form button {
+   margin-top: 0px;
+    background: #f7cd09;
+    border: none;
+    padding: 8px 30px;
+    color: #000;
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.shedule-inner-form span {
+    float: none;
+    width: 100%;
+    display: flex;
+    padding-top: 7px;
+    text-align: left;
+}
+.shedule-inner-form span a {
+    font-size: 13px;
+}
+.blog-topic ul {
+    margin: 0;
+    padding: 10px;
+}
+.blog-topic ul li {
+    padding: 7px 0px;
+    font-size: 12px;
+}
+/*contact page css 768x1022*/
+.contact-pg-main-box p {
+    text-align: center;
+    padding: 0 88px;
+}
+.contac-info-icon p {
+    padding-left: 6px;
+}
+/*safety page css 768x1022*/
+.safety-pg-main-box p {
+    padding: 0px 88px;
+    
+}
+.safety-pg-section {
+    padding: 40px 0px;
+    
+}
+/*------------*/
+.pack-overlay {
+    height: 223px;
+    width: 222px;
+}
+.best-gol-box img {
+    border: 3px solid #fff;
+    width: 100%;
+}
+
+.blog-inner-img {
+    margin-bottom: 25px;
+}
+.blog-inner-pg-main-box p {
+    text-align: center;
+    font-size: 13px;
+}
+
+}
